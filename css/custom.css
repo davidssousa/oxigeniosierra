@@ -27,4 +27,7 @@
 .oxigenio-font-default {
   color: #7db613;
 }
+.oxigenio-font-reverse {
+  color: rgba(255,255,255, 0.7);
+}
 
