@@ -1,0 +1,30 @@
+
+.logo-font {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.text-default {
+  color: #7db613;
+}
+
+.elr {
+  color: #7db613; /*31,73,125 Bernard MT Condensed*/
+}
+.elrs {
+  color: rgb(196,188,150);
+}
+.elrs-inverse {
+  color: #777;
+}
+.elrs-light {
+  color: rgba(255,255,255, 0.7);
+}
+
+.oxigenio-font-darc {
+  color: #4d6e0e;
+}
+
+.oxigenio-font-default {
+  color: #7db613;
+}
+
