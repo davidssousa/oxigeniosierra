@@ -31,3 +31,25 @@
   color: rgba(255,255,255, 0.7);
 }
 
+
+@media screen and (max-width: 576px) and (orientation: portrait) {
+  .font-mobille-slider-sm {
+    font-size: 15px !important;
+  }
+
+  .font-mobille-slider-md {
+    font-size: 17px !important;
+  }
+
+  .font-mobille-slider-lg {
+    font-size: 20px !important;
+  }
+
+  .font-mobille-slider-xl {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 576px) and (orientation: landscape) {
+
+}
