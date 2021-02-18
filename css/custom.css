@@ -31,6 +31,28 @@
   color: rgba(255,255,255, 0.7);
 }
 
+.whatsappButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 999;
+  bottom: 8px;
+  right: 8px;
+  height: 60px;
+  min-width: 60px;
+  max-width: 95vw;
+  background: #25d366;
+  color: inherit;
+  border-radius: 30px;
+  box-shadow: 1px 6px 24px 0 rgba(7,94,84,.24);
+  cursor: pointer;
+  transition: background .2s linear;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  will-change: background-color,width;
+}
+
 
 @media screen and (max-width: 576px) and (orientation: portrait) {
   .font-mobille-slider-sm {
@@ -48,8 +70,19 @@
   .font-mobille-slider-xl {
     font-size: 30px !important;
   }
+
+  .whatsappButton {
+    bottom: 8px;
+    right: 8px;
+    height: 60px;
+    min-width: 60px;
+  }
 }
+
+
 
 @media screen and (max-width: 576px) and (orientation: landscape) {
-
+  
 }
+
+
